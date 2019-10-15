@@ -1,0 +1,17 @@
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp\bin\Debug\netstandard2.0\INFT2051_QuickApp.deps.json
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp\bin\Debug\netstandard2.0\INFT2051_QuickApp.dll
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp\bin\Debug\netstandard2.0\INFT2051_QuickApp.pdb
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp\obj\Debug\netstandard2.0\INFT2051_QuickApp.csprojAssemblyReference.cache
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp\obj\Debug\netstandard2.0\INFT2051_QuickApp.csproj.CoreCompileInputs.cache
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp\obj\Debug\netstandard2.0\INFT2051_QuickApp.AssemblyInfoInputs.cache
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp\obj\Debug\netstandard2.0\INFT2051_QuickApp.AssemblyInfo.cs
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp\obj\Debug\netstandard2.0\INFT2051_QuickApp.dll
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp\obj\Debug\netstandard2.0\INFT2051_QuickApp.pdb
