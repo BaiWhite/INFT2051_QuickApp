@@ -19,8 +19,8 @@ namespace INFT2051_QuickApp.Views
 
             Item = new Item
             {
-                Text = "Item name",
-                Description = "This is an item description."
+                CompanyName = "Item name",
+                RichText = "This is an item description."
             };
 
             BindingContext = this;
