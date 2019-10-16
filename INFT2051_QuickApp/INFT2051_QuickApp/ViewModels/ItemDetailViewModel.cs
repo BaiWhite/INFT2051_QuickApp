@@ -9,7 +9,7 @@ namespace INFT2051_QuickApp.ViewModels
         public Item Item { get; set; }
         public ItemDetailViewModel(Item item = null)
         {
-            Title = item?.Text;
+            CompanyName = item?.CompanyName;
             Item = item;
         }
     }

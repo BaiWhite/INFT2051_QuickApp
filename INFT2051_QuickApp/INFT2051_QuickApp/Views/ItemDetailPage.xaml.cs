@@ -26,8 +26,8 @@ namespace INFT2051_QuickApp.Views
 
             var item = new Item
             {
-                Text = "Item 1",
-                Description = "This is an item description."
+                CompanyName = "Item 1",
+                RichText = "This is an item description."
             };
 
             viewModel = new ItemDetailViewModel(item);

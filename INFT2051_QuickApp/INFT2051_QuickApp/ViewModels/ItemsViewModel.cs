@@ -17,7 +17,7 @@ namespace INFT2051_QuickApp.ViewModels
 
         public ItemsViewModel()
         {
-            Title = "Browse";
+            CompanyName = "Browse";
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 

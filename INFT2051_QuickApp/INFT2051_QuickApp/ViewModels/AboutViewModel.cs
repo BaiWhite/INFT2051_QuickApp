@@ -9,7 +9,7 @@ namespace INFT2051_QuickApp.ViewModels
     {
         public AboutViewModel()
         {
-            Title = "About";
+            CompanyName = "About";
 
             OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://xamarin.com/platform")));
         }

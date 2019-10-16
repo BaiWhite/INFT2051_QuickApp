@@ -22,7 +22,7 @@ namespace INFT2051_QuickApp.ViewModels
         }
 
         string title = string.Empty;
-        public string Title
+        public string CompanyName
         {
             get { return title; }
             set { SetProperty(ref title, value); }
