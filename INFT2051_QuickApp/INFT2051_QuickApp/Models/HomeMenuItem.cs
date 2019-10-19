@@ -6,7 +6,8 @@ namespace INFT2051_QuickApp.Models
 {
     public enum MenuItemType
     {
-        Browse,
+        BrowseSimple,
+        MyApp,
         About
     }
     public class HomeMenuItem

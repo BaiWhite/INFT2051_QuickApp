@@ -103,6 +103,4 @@ C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickAp
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp\bin\Debug\netstandard2.0\INFT2051_QuickApp.dll
-C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\bin\Debug\INFT2051_QuickApp.dll.mdb
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\linksrc\INFT2051_QuickApp.dll.mdb
