@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace INFT2051_QuickApp.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class MyAppPage : ContentView
+	public partial class MyAppPage : ContentPage
 	{
 		public MyAppPage ()
 		{
