@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:INFT2051_QuickApp.ViewModels"
+             x:Class="INFT2051_QuickApp.Views.UserPage">
+    <ContentPage.BindingContext>
+        <viewModels:LoginViewModel/>
+    </ContentPage.BindingContext>
+
+    <StackLayout Orientation="Vertical"
+                 VerticalOptions="Center"
+                 Spacing="20"
+                 Padding="20">
+        <Label Text="Welcome to Xamarin.Forms!"
+               VerticalOptions="CenterAndExpand" 
+               HorizontalOptions="CenterAndExpand"
+               x:Name="UserPaymentStatus"/>
+        <Button Text="Pay For Own Page" 
+                Clicked="Button_Clicked"/>
+        <Button Text="Log Out" 
+                Clicked="Button_Clicked_LogOut"/>
+
+    </StackLayout>
+</ContentPage>

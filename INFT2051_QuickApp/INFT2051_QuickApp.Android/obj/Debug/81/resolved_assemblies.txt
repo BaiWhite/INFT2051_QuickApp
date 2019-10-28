@@ -2,8 +2,13 @@ C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickAp
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\INFT2051_QuickApp.dll
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Java.Interop.dll
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Json.Net.dll
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Microsoft.CSharp.dll
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Mono.Android.dll
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\mscorlib.dll
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Newtonsoft.Json.dll
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Plugin.Settings.Abstractions.dll
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Plugin.Settings.dll
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\System.Core.dll
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\System.dll
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\System.Xml.dll
@@ -42,4 +47,5 @@ C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickAp
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\System.Web.Services.dll
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\System.Runtime.dll
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Mono.Security.dll

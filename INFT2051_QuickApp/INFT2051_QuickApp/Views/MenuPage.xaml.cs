@@ -1,4 +1,5 @@
 ﻿using INFT2051_QuickApp.Models;
+using INFT2051_QuickApp.Services;
 using System;
 using System.Collections.Generic;
 
@@ -15,13 +16,22 @@ namespace INFT2051_QuickApp.Views
         public MenuPage()
         {
             InitializeComponent();
+            string userTitle = "New User";
+            if (ApplicationSettings.IsSignIn)
+            {
+                userTitle = "Hi, " + ApplicationSettings.CompanyName;
+            }
 
             menuItems = new List<HomeMenuItem>
             {
+                new HomeMenuItem {Id = MenuItemType.User, Title=userTitle},
                 new HomeMenuItem {Id = MenuItemType.BrowseSimple, Title="BrowseSimple" },
                 new HomeMenuItem {Id = MenuItemType.About, Title="About" },
-                new HomeMenuItem {Id = MenuItemType.MyApp, Title="MyApp" }
             };
+            if (ApplicationSettings.Paid)
+            {
+                menuItems.Add(new HomeMenuItem { Id = MenuItemType.MyApp, Title = "MyApp" });
+            }
 
             ListViewMenu.ItemsSource = menuItems;
 

@@ -1,4 +1,5 @@
 ﻿using INFT2051_QuickApp.Models;
+using INFT2051_QuickApp.Services;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -26,6 +27,16 @@ namespace INFT2051_QuickApp.Views
             {
                 switch (id)
                 {
+                    case (int)MenuItemType.User:
+                        if (ApplicationSettings.IsSignIn)
+                        {
+                            MenuPages.Add(id, new NavigationPage(new UserPage()));
+                        }
+                        else
+                        {
+                            MenuPages.Add(id, new NavigationPage(new LoginPage()));
+                        }
+                        break;
                     case (int)MenuItemType.BrowseSimple:
                         MenuPages.Add(id, new NavigationPage(new ItemsPage()));
                         break;

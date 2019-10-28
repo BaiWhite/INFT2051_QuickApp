@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:INFT2051_QuickApp.ViewModels"
+             x:Class="INFT2051_QuickApp.Views.MakePaymentPage">
+    <ContentPage.BindingContext>
+        <viewModels:PaymentViewModel/>
+    </ContentPage.BindingContext>
+    <StackLayout>
+        <Entry Text="{Binding CardNumber}" 
+               Placeholder="CardNumber"/>
+
+        <Entry Text="{Binding NameOnCard}"
+               Placeholder="NameOnCard"/>
+
+        <Entry Text="{Binding ExpiryDate}"
+               Placeholder="ExpiryDate"/>
+
+        <Entry Text="{Binding SecurityCode}"
+               Placeholder="SecurityCode"/>
+
+        <Button Command="{Binding MakePaymentCommond}"
+                Text="Signin"
+                TextColor="White"
+                FontSize="30"
+                BackgroundColor="DeepSkyBlue"/>
+
+        <Button Text="Cancle"
+                Clicked="Button_Clicked" />
+    </StackLayout>
+</ContentPage>

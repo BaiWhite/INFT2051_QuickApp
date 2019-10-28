@@ -56,8 +56,13 @@ C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickAp
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\bin\Debug\System.ServiceModel.Internals.pdb
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\bin\Debug\System.Web.Services.pdb
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\bin\Debug\Mono.Security.pdb
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\bin\Debug\INFT2051_QuickApp.dll.mdb
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\bin\Debug\Microsoft.CSharp.pdb
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\bin\Debug\Plugin.Settings.Abstractions.dll.mdb
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\bin\Debug\Plugin.Settings.dll.mdb
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\linksrc\INFT2051_QuickApp.Android.pdb
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\linksrc\Microsoft.CSharp.pdb
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\linksrc\Mono.Android.pdb
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\linksrc\mscorlib.pdb
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\linksrc\System.Core.pdb
@@ -78,11 +83,15 @@ C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickAp
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\linksrc\Mono.Security.pdb
-C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\bin\Debug\INFT2051_QuickApp.dll.mdb
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\linksrc\INFT2051_QuickApp.dll.mdb
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\linksrc\Plugin.Settings.Abstractions.dll.mdb
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\linksrc\Plugin.Settings.dll.mdb
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\INFT2051_QuickApp.dll.mdb
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Plugin.Settings.Abstractions.dll.mdb
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Plugin.Settings.dll.mdb
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\FormsViewGroup.pdb
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\INFT2051_QuickApp.Android.pdb
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Microsoft.CSharp.pdb
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Mono.Android.pdb
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Mono.Security.pdb
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\mscorlib.pdb
@@ -106,3 +115,5 @@ C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickAp
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp\bin\Debug\netstandard2.0\INFT2051_QuickApp.dll
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\bin\Debug\INFT2051_QuickApp.dll.mdb
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\linksrc\INFT2051_QuickApp.dll.mdb
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\linksrc\Plugin.Settings.Abstractions.dll.mdb
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\linksrc\Plugin.Settings.dll.mdb
