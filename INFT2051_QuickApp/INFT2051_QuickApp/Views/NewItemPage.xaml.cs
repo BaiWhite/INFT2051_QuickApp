@@ -5,22 +5,23 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 using INFT2051_QuickApp.Models;
+using INFT2051_QuickApp.ViewModels;
 
 namespace INFT2051_QuickApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class NewItemPage : ContentPage
     {
-        public Item Item { get; set; }
+        public BusinessPage Item { get; set; }
 
         public NewItemPage()
         {
             InitializeComponent();
 
-            Item = new Item
+            Item = new BusinessPage
             {
                 CompanyName = "Item name",
-                RichText = "This is an item description."
+                Description = "This is an item description."
             };
 
             BindingContext = this;

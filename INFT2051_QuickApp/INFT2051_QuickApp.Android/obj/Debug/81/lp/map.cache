@@ -2,6 +2,10 @@ FormsViewGroup
 INFT2051_QuickApp
 Json.Net
 Newtonsoft.Json
+Plugin.CurrentActivity
+Plugin.Geolocator
+Plugin.Media
+Plugin.Permissions
 Plugin.Settings.Abstractions
 Plugin.Settings
 System.Runtime

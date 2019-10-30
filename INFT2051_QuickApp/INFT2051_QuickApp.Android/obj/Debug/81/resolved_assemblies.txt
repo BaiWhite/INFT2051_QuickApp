@@ -7,6 +7,10 @@ C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickAp
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Mono.Android.dll
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\mscorlib.dll
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Newtonsoft.Json.dll
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Plugin.CurrentActivity.dll
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Plugin.Geolocator.dll
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Plugin.Media.dll
+C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Plugin.Permissions.dll
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Plugin.Settings.Abstractions.dll
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\Plugin.Settings.dll
 C:\Users\bobai\source\repos\INFT2051_QuickApp\INFT2051_QuickApp\INFT2051_QuickApp.Android\obj\Debug\81\android\assets\System.Core.dll

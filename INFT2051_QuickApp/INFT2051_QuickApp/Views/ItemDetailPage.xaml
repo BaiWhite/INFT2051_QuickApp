@@ -2,10 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="INFT2051_QuickApp.Views.ItemDetailPage"
-             Title="{Binding Title}">
+             Title="{Binding Item.CompanyName}">
     <StackLayout Spacing="20" Padding="15">
-        <Label Text="Text:" FontSize="Medium" />
-        <Label Text="{Binding Item.Text}" FontSize="Small"/>
+        <Label Text="Company:" FontSize="Medium" />
+        <Label Text="{Binding Item.CompanyName}" FontSize="Small"/>
+        <Label Text="Location:" FontSize="Medium" />
+        <Label Text="" FontSize="Small" x:Name="LocationLabel"/>
         <Label Text="Description:" FontSize="Medium" />
         <Label Text="{Binding Item.Description}" FontSize="Small"/>
     </StackLayout>

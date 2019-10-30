@@ -62,6 +62,59 @@ namespace INFT2051_QuickApp.Services
             return user;
         }
 
+        public async Task<List<BusinessPage>> LoadPagesAsync()
+        {
+            var client = new HttpClient();
+
+            var json = await client.GetStringAsync(
+                Constants.LocalServer + "api/BusinessPages");
+
+            var pages = JsonConvert.DeserializeObject<List<BusinessPage>>(json);
+
+            return pages;
+        }
+
+        internal async Task<BusinessPage> UploadPageAsync(string companyName, string description, string storeLatitude, string storeLongitude)
+        {
+            var client = new HttpClient();
+            BusinessPage businessPage = new BusinessPage
+            {
+                Description = description,
+                StoreLatitude = storeLatitude,
+                StoreLongitude = storeLongitude,
+                CompanyName = companyName
+            };
+
+            var json = JsonConvert.SerializeObject(businessPage);
+
+            HttpContent httpContent = new StringContent(json);
+
+            httpContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+            try
+            {
+                HttpResponseMessage response = await client.PostAsync(Constants.LocalServer + "api/BusinessPages", httpContent);
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    businessPage = JsonConvert.DeserializeObject<BusinessPage>(content);
+                    businessPage.UploadSuccess = true;
+                }
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine("\tERROR {0}", e.Message);
+                throw;
+            }
+
+            return businessPage;
+        }
+
+        internal async Task<bool> PushImageAsync(string companyName, string description, string storeImage)
+        {
+            return true;
+        }
+
         public async Task<User> LoginAsync(string companyName, string password) {
             var client = new HttpClient();
             User user = null;

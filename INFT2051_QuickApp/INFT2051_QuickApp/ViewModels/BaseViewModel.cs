@@ -12,7 +12,7 @@ namespace INFT2051_QuickApp.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-        public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>() ?? new MockDataStore();
+        public IDataStore<BusinessPage> DataStore => DependencyService.Get<IDataStore<BusinessPage>>() ?? new MockDataStore();
 
         bool isBusy = false;
         public bool IsBusy

@@ -11,26 +11,27 @@ namespace INFT2051_QuickApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ItemDetailPage : ContentPage
     {
-        ItemDetailViewModel viewModel;
+        BusinessDetailViewModel viewModel;
 
-        public ItemDetailPage(ItemDetailViewModel viewModel)
+        public ItemDetailPage(BusinessDetailViewModel viewModel)
         {
             InitializeComponent();
 
             BindingContext = this.viewModel = viewModel;
+            LocationLabel.Text = "StoreLongitude" + viewModel.Item.StoreLongitude + "; StoreLatitude" + viewModel.Item.StoreLatitude;
         }
 
         public ItemDetailPage()
         {
             InitializeComponent();
 
-            var item = new Item
+            var item = new BusinessPage
             {
                 CompanyName = "Item 1",
-                RichText = "This is an item description."
+                Description = "This is an item description."
             };
 
-            viewModel = new ItemDetailViewModel(item);
+            viewModel = new BusinessDetailViewModel(item);
             BindingContext = viewModel;
         }
     }

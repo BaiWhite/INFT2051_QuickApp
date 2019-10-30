@@ -1,52 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:INFT2051_QuickApp.ViewModels"
              x:Class="INFT2051_QuickApp.Views.MyAppPage">
-    <Grid Margin="20,35,20,20">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0.4*" />
-            <ColumnDefinition Width="0.6*" />
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="40" />
-            <RowDefinition Height="40" />
-            <RowDefinition Height="40" />
-            <RowDefinition Height="40" />
-            <RowDefinition Height="40" />
-            <RowDefinition Height="40" />
-            <RowDefinition Height="40" />
-        </Grid.RowDefinitions>
-        <Entry x:Name="cityEntry"
-               Grid.ColumnSpan="2"
-               Text="Seattle" />
-        <Button Grid.ColumnSpan="2"
-                Grid.Row="1"
-                Text="Get Weather"
-                Clicked="OnButtonClicked" />
-        <Label Grid.Row="2"
-               Text="Location:" />
-        <Label Grid.Row="2"
-               Grid.Column="1"
-               Text="{Binding Title}" />
-        <Label Grid.Row="3"
-               Text="Temperature:" />
-        <Label Grid.Row="3"
-               Grid.Column="1"
-               Text="{Binding Main.Temperature}" />
-        <Label Grid.Row="4"
-               Text="Wind Speed:" />
-        <Label Grid.Row="4"
-               Grid.Column="1"
-               Text="{Binding Wind.Speed}" />
-        <Label Grid.Row="5"
-               Text="Humidity:" />
-        <Label Grid.Row="5"
-               Grid.Column="1"
-               Text="{Binding Main.Humidity}" />
-        <Label Grid.Row="6"
-               Text="Visibility:" />
-        <Label Grid.Row="6"
-               Grid.Column="1"
-               Text="{Binding Weather[0].Visibility}" />
-    </Grid>
+    <ContentPage.BindingContext>
+        <viewModels:LoginViewModel/>
+    </ContentPage.BindingContext>
+    <StackLayout Orientation="Vertical">
+        <Label Text="Company Name"
+               HorizontalOptions="Center"
+               TextColor="Black"
+               x:Name="Label"
+               FontSize="36"/>
+        <Label Text="Last Updated:" />
+        <Label Text="Waiting for update..." x:Name="LastUpdatedLabel" />
+        <!--<Image x:Name="FileImage"
+               WidthRequest="400"
+               HeightRequest="220" />-->
+        <Label Text="Latitude:" />
+        <Label Text=" " x:Name="LatitudeLabel" />
+
+        <Label Text="Longitude:" />
+        <Label Text=" " x:Name="LongitudeLabel" />
+        <Editor x:Name="Description"
+                Text="Editor is used for collecting text."
+                BackgroundColor="#2c3e50" 
+                HeightRequest="100" />
+        <!--<Button Text="Pick Photo"
+                BackgroundColor="Teal"
+                TextColor="White"
+                FontSize="40"
+                Clicked="PickPhoto_ClickedAsync"/>-->
+        <!--<Button Text="Take Photo"
+                BackgroundColor="Navy"
+                TextColor="White"
+                FontSize="40"
+                Clicked="TakePhoto_ClickedAsync"/>-->
+        <!--<Button Text="Update Position"
+                BackgroundColor="Purple"
+                TextColor="White"
+                FontSize="40"
+                Clicked="Current_PositionChanged"/>-->
+        <Button Text="Update Page"
+                BackgroundColor="Purple"
+                TextColor="White"
+                FontSize="40"
+                Clicked="UploadFile_ClickedAsync"/>
+    </StackLayout>
 </ContentPage>

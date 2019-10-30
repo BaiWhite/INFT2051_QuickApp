@@ -8,7 +8,7 @@ namespace INFT2051_QuickApp.ViewModels
 {
     public class LoginViewModel
     {
-        private readonly ApiServices _apiServices = new ApiServices();
+        private readonly ApiServices apiServices = new ApiServices();
 
         public string CompanyName { get; set; }
         public string Password { get; set; }
@@ -20,7 +20,7 @@ namespace INFT2051_QuickApp.ViewModels
                 {
                     try
                     {
-                        var accesstoken = await _apiServices.LoginAsync(CompanyName, Password);
+                        var accesstoken = await apiServices.LoginAsync(CompanyName, Password);
 
                         if (accesstoken.CompanyName != null)
                         {

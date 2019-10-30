@@ -8,6 +8,8 @@ namespace INFT2051_QuickApp.Services
     {
         public static long UserID { get; set; }
 
+        public static string CompanyPageID { get; set; }
+
         public static bool IsSignIn { get; set; }
 
         public static DateTime ExpirationDate { get; set; }
