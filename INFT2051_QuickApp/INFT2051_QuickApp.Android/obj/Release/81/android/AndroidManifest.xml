@@ -3,10 +3,14 @@
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-feature android:name="android.hardware.location.gps" />
+  <uses-feature android:name="android.hardware.location.network" />
   <uses-feature android:name="android.hardware.camera" android:required="false" />
   <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
-  <application android:label="INFT2051_QuickApp.Android" android:name="md522fe745a90c2a05b92ade8904fd28da0.FileRelated" android:allowBackup="true" android:icon="@mipmap/icon">
+  <application android:label="INFT2051_QuickApp.Android" android:name="md522fe745a90c2a05b92ade8904fd28da0.MainApplication" android:allowBackup="true" android:icon="@mipmap/icon">
     <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="INFT2051_QuickApp" android:theme="@style/MainTheme" android:name="md522fe745a90c2a05b92ade8904fd28da0.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

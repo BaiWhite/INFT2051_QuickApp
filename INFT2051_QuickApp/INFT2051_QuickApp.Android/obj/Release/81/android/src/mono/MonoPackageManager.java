@@ -112,6 +112,7 @@ class MonoPackageManager_Resources {
 		"Json.Net.dll",
 		"Newtonsoft.Json.dll",
 		"Plugin.CurrentActivity.dll",
+		"Plugin.Geolocator.dll",
 		"Plugin.Media.dll",
 		"Plugin.Permissions.dll",
 		"Plugin.Settings.Abstractions.dll",
